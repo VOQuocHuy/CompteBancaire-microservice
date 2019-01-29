@@ -81,7 +81,7 @@ public class CompteBancaire {
     }
     public void setSolde(Double solde) {
     	this.solde=solde;
-    }     
+    }
   
 
 }
