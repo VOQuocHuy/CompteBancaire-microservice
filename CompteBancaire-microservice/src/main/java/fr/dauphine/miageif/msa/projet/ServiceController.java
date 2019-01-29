@@ -1,4 +1,4 @@
-package fr.dauphine.miageif.msa.exemple;
+package fr.dauphine.miageif.msa.projet;
 
 
 import java.net.URI;
@@ -28,7 +28,7 @@ public class ServiceController {
     @Autowired
     private CompteBancaireRepository repository;
 
-    @GetMapping("/comptes")
+    @GetMapping("/compte")
     public List<CompteBancaire> consultercompte() {
     	return repository.findAll();
     }

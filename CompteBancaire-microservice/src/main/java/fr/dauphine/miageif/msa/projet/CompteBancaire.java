@@ -1,4 +1,4 @@
-package fr.dauphine.miageif.msa.exemple;
+package fr.dauphine.miageif.msa.projet;
 
 
 import javax.persistence.Column;
