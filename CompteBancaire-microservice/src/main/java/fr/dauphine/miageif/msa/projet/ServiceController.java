@@ -97,7 +97,7 @@ public class ServiceController {
         return ResponseEntity.noContent().build();
     }
     
-    @PutMapping("/transfer/{idsour}/{iddest}")
+    @PutMapping("/comptes/virement/{idsour}/{iddest}")
     public ResponseEntity<CompteBancaire> faireUnVirement (@PathVariable long idsour,
                                                    @PathVariable long iddest,
                                                 @RequestParam(value = "montant", required = false) Double montant){
