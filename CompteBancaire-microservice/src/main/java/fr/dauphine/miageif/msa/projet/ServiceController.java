@@ -45,7 +45,7 @@ public class ServiceController {
     }    
 
     @DeleteMapping("/comptes/delete/id/{id}")
-    public void deleteMethod(@PathVariable long id) {
+    public void supprimeriban(@PathVariable long id) {
     	repository.deleteById(id);
     }  
     
