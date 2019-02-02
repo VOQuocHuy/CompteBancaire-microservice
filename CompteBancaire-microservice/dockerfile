@@ -1,0 +1,4 @@
+FROM java:8
+ADD target/comptebancaire-microservice.jar comptebancaire-microservice.jar
+EXPOSE 8000
+ENTRYPOINT exec java -jar comptebancaire-microservice.jar
